@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.row{
+  width: min(900px,100%);
+  padding: 10px 15px;
+  background-color: #eee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form{
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+form .inp-task{
+  padding: 10px;
+  width: min(500px,100%);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+.btn{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;  
+}
+.row button{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;  
+}
+form .inp-task:focus{
+  border: 1px solid orangered;
+  -webkit-text-fill-color: red;
+  caret-color: orangered;
+}
+.row div{
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: min(600px,100%);
+  margin: 0 auto;
+}
+.row div p {
+  font-weight: 700;
+  font-size: 18px;
+}
+h1{
+  text-align: center;
+  font-weight: 900;
+  color: orangered;
+  text-shadow: white 20px;
+}
+.taskBox{
+  padding: 25px 15px;
+}
